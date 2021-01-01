@@ -8,7 +8,7 @@
     
   width: 100%;
   background-color: rgb(245, 68, 14);
-  overflow: hidden;
+  overflow: auto;
   /*position: fixed;*/
 }
 
