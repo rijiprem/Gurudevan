@@ -1,0 +1,43 @@
+.bckimg{
+
+   background-image: url("../img3.jpg");
+}
+
+
+.navbar {
+    
+  width: 100%;
+  background-color: rgb(245, 68, 14);
+  overflow: hidden;
+  /*position: fixed;*/
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(64, 7, 170);
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+  
+}
+
+.navbar a:hover {
+  background-color: rgb(188, 224, 26);
+}
+
+.navbar a.active {
+  background-color: #ec922c;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+}
